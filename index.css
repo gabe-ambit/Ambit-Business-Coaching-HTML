@@ -184,25 +184,14 @@
   color: rgb(255, 255, 255);
   font-size: 100px;
   max-width: 790px;
-  font-weight: 500;
-}
-.home-text05 {
   font-family: "Montserrat";
+  font-weight: 500;
 }
 .home-text06 {
   font-style: italic;
-  font-family: "Montserrat";
-}
-.home-text07 {
-  font-family: "Montserrat";
 }
 .home-text08 {
   font-style: italic;
-  font-family: "Montserrat";
-  font-weight: 500;
-}
-.home-text09 {
-  font-style: normal;
 }
 .home-caption {
   color: rgb(255, 255, 255);
@@ -417,10 +406,10 @@
   font-family: "Montserrat";
   font-weight: 500;
 }
-.home-text14 {
+.home-text13 {
   font-style: italic;
 }
-.home-text15 {
+.home-text14 {
   font-style: italic;
 }
 .home-content1 {
@@ -606,7 +595,7 @@
   width: var(--dl-size-size-xxlarge);
   object-fit: cover;
 }
-.home-text19 {
+.home-text18 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -672,7 +661,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text20 {
+.home-text19 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
