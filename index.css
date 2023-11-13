@@ -184,16 +184,25 @@
   color: rgb(255, 255, 255);
   font-size: 100px;
   max-width: 790px;
-  font-style: normal;
   font-weight: 500;
+}
+.home-text05 {
+  font-family: "Montserrat";
 }
 .home-text06 {
   font-style: italic;
+  font-family: "Montserrat";
+}
+.home-text07 {
+  font-family: "Montserrat";
 }
 .home-text08 {
   font-style: italic;
   font-family: "Montserrat";
   font-weight: 500;
+}
+.home-text09 {
+  font-style: normal;
 }
 .home-caption {
   color: rgb(255, 255, 255);
