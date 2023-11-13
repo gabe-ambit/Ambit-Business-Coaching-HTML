@@ -189,7 +189,10 @@
 }
 .home-text06 {
   font-style: italic;
-  font-family: "Playfair Display";
+}
+.home-text08 {
+  font-style: italic;
+  font-family: "Montserrat";
   font-weight: 500;
 }
 .home-caption {
@@ -198,7 +201,8 @@
   max-width: 600px;
   line-height: 36px;
 }
-.home-button {
+.home-link {
+  text-decoration: none;
   background-color: var(--dl-color-primary-100);
 }
 .home-note {
@@ -359,11 +363,15 @@
   max-width: 600px;
   line-height: 36px;
 }
-.home-button1 {
+.home-button {
   display: flex;
   align-items: flex-end;
   flex-direction: row;
   justify-content: space-between;
+}
+.home-button1 {
+  text-decoration: none;
+  background-color: var(--dl-color-primary-100);
 }
 .home-image1 {
   top: 0px;
@@ -400,10 +408,10 @@
   font-family: "Montserrat";
   font-weight: 500;
 }
-.home-text12 {
+.home-text14 {
   font-style: italic;
 }
-.home-text13 {
+.home-text15 {
   font-style: italic;
 }
 .home-content1 {
@@ -589,7 +597,7 @@
   width: var(--dl-size-size-xxlarge);
   object-fit: cover;
 }
-.home-text17 {
+.home-text19 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -603,6 +611,7 @@
   gap: var(--dl-space-space-threeunits);
   color: white;
   display: flex;
+  visibility: hidden;
   align-items: flex-end;
   flex-direction: column;
 }
@@ -654,12 +663,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text18 {
+.home-text20 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
 }
-.home-button3 {
+.home-link1 {
   display: flex;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fiveunits);
@@ -667,6 +676,8 @@
   padding-right: var(--dl-space-space-fiveunits);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-100);
 }
 .home-image3 {
   width: 21px;
@@ -935,7 +946,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .home-button {
+  .home-link {
     text-align: center;
   }
   .home-image1 {
@@ -955,7 +966,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .home-button3 {
+  .home-link1 {
     justify-content: center;
   }
 }
